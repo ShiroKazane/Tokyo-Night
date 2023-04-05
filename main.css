@@ -186,7 +186,7 @@
 }
 .scrollableContainer-15eg7h:hover,
 .scrollableContainer-15eg7h:focus-within {
-  border-bottom-color: var(--background-accent) !important;
+  border-bottom-color: var(--background-accent);
 }
 .emptyChannelIcon-1YdEz2 {
   background-color: var(--background-tertiary);
