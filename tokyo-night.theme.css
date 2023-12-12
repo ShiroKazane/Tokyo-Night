@@ -32,20 +32,20 @@
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/syntax-highlight.css");
 
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
-/* @import url("https://shirokazane.my.id/Tokyo-Night/addons/username-background.css"); */
+/* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/username-background.css"); */
 
 /* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
-/* @import url("https://shirokazane.my.id/Tokyo-Night/addons/mac-titlebar.css"); */
+/* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/mac-titlebar.css"); */
 
 /* Compact Mode, hide some UI part on specific windows size,
   <920px Channel sidebar and member list get hidden, <600px Chat window only. (Disabled by default) */
-/* @import url("https://shirokazane.my.id/Tokyo-Night/addons/compact-mode.css"); */
+/* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/compact-mode.css"); */
 
 /* Monospace, use monospaced font (JetBrains Mono) instead the default one (Disabled by default) */
-/* @import url("https://shirokazane.my.id/Tokyo-Night/addons/monospace-fonts.css"); */
+/* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/monospace-fonts.css"); */
 
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
-/* @import url("https://shirokazane.my.id/Tokyo-Night/addons/square-avatar.css"); */
+/* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/square-avatar.css"); */
 
 
 /* ==== Discord Variables ==== */
