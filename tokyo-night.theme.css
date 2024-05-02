@@ -46,7 +46,33 @@
 
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/square-avatar.css"); */
+@import url("https://ukrioo.github.io/cssCord/Other/TabCord.css");
 
+.container__827e6 video.ready__61f2f {
+    display: none;
+}
+.content_de05de::before {
+    visibility: visible;
+    content: '';
+    display: block;
+    background: url("https://media.discordapp.net/stickers/1217112512374505613.png?size=240");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    margin-bottom: 48px;
+}
+
+.wordmarkWindows_ffbc5e::after {
+    content: "Shiro";
+    display: flex;
+    width: fit-content;
+    font-size: 12px;
+    font-family: var(--font-display);
+    font-weight: 700;
+}
 
 /* ==== Discord Variables ==== */
 .theme-dark { /* Dark Mode */
