@@ -71,6 +71,8 @@
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/custom-titlebar.css");
 
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/user-reimagined.css");
+
 :root{
     --blur-popup: 40px;
     --opacity-popup: 0.6;
