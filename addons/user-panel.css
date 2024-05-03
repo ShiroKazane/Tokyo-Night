@@ -22,7 +22,7 @@
   margin: 0;
   margin-bottom: -44px;
   transition: .2s ease;
-  background: var(--bg-overlay-app-frame, var(--background-tertiary)) !important;
+  background: transparent !important;
 
   &:hover {
     margin-bottom: 0;
@@ -54,10 +54,6 @@
     &:hover {
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
     }
-
-    &:active {
-      background: var(--bg-overlay-active,var(--background-modifier-active)) !important;
-    }
   }
 
   & .flex_f18b02 {
@@ -68,9 +64,9 @@
     gap: 6px;
   }
 
-  & .button__581d0:hover .contents__322f4 {
+/*   & .button__581d0:hover .contents__322f4 {
     color: var(--bg-overlay-active,var(--background-modifier-active));
-  }
+  } */
 }
 
 [class^="actionButtons_"] {
@@ -93,10 +89,6 @@
     &:hover {
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
     }
-
-    &:active {
-      background: var(--bg-overlay-active,var(--background-modifier-active)) !important;
-    }
   }
 }
 
@@ -108,16 +100,12 @@
   margin: 8px;
   border-radius: 8px;
   position: relative;
-  --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--inversed-overlay,var(--background-primary));
-  transition: color .15s ease-out,background-color .15s ease-out;  
+  transition: background .25s ease-in-out;  
 }
 
 /* [[ SPOTIFY CONTROLS ]] */
 #vc-spotify-player {
-  --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-  background: var(--inversed-overlay,var(--background-primary));
-  transition: color .15s ease-out,background-color .15s ease-out;
+  background: transparent !important;
   border-bottom: none;
   padding: 14px 12px;
 
