@@ -41,7 +41,7 @@
     }
 
     &:hover {
-      background: transparent !important;
+      background: var(--inversed-overlay,var(--background-primary));
     }
   }
 
