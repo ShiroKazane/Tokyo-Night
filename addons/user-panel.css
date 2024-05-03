@@ -34,7 +34,7 @@
     padding: 0 16px;
     margin: 0;
     box-sizing: border-box;
-    border-radius: unset;
+    border-radius: 8px;
     transition: color .15s ease-out,background-color .15s ease-out;
 
     & .hoverRoll__3ea9e {
