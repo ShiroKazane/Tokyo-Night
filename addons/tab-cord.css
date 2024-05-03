@@ -15,7 +15,7 @@
   border-radius: 16px !important;
 }
 [class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="guilds_"] {
-  margin-top: 0 !important;
+  margin: 0 0 12px 0 !important;
 }
 .mention, .channelMention, .wrapper__53064 {
   border-radius: 8px !important;
