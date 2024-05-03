@@ -71,7 +71,13 @@
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/ping-color.css");
 
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/pretty-connected.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/profile-border.css");
+
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/masked-url.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/minimize-authapp.css");
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/reduce-motion.css");
 
@@ -88,6 +94,14 @@
     --opacity-popup: 0.6;
     --radius-popup: 14px;
     --radius-context: 8px;
+}
+
+[class*="connectedAccountContainer_"] {
+    --CA-radius: 16px;
+    --CA-icon-color: white;
+    --CA-checkmark-color: rgba(0, 0, 0, 0.65);
+    --CA-background: var(--profile-gradient-secondary-color);
+    /* Alternatively, you can have var(--profile-gradient-primary-color), but it might blend in with the profile and not stand out. */
 }
 
 /* ==== Discord Variables ==== */
