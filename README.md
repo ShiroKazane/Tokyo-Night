@@ -6,25 +6,6 @@
 
 ---
 
-## Installation
-
-### BetterDiscord
-
-1. Download the theme file [here](https://betterdiscord.app/Download?id=439)
-2. Place it in the BetterDiscord themes folder
-3. Enable Tokyo Night in the themes tab
-
-### Replugged
-```sh
-cd replugged/themes && git clone https://github.com/Dyzean/Tokyo-Night
-```
-or [Click This Link](https://replugged.dev/install?url=https://github.com/Dyzean/Tokyo-Night)
-
-### Goosemod
-1. Open Goosemod's Theme Store
-2. Search for "Tokyo Night"
-3. Install the theme and enable it
-
 ## Credits
 
 - [LuckFire](https://github.com/LuckFire) for [Better Quotes](https://github.com/LuckFire/CSS-Snippets/tree/master/BetterQuotes)
