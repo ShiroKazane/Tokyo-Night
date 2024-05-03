@@ -1,6 +1,6 @@
 [class*=messageContent] :is(h1, h2, h3) {
-  color: LightBlue;
+  color: LightSkyBlue;
 }
 [class*=messageContent] strong {
-  color: LightSkyBlue;
+  color: LightBlue;
 }
