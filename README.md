@@ -1,4 +1,3 @@
-# IMPORTANT! THIS THEME IS NOT ACTIVELY MAINTAINED ANYMORE BECAUSE IM NOT INTERESTED ON DISCORD THEMING ANYMORE, FORK AND PRs ARE STILL APPRECIATED AND WELCOMED!
 <h1 align="center">Tokyo Night</h1>
 
 ![](https://github.com/Dyzean/Tokyo-Night/blob/main/assets/preview.png?raw=true)
