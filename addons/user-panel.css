@@ -42,8 +42,7 @@
     }
 
     &:hover {
-      --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
-      background: var(--inversed-overlay,var(--background-primary));
+      background: var(--background-primary);
     }
   }
 
