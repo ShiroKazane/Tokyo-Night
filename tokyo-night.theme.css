@@ -47,6 +47,24 @@
 /* Square Avatar, get square avatar on chat memberlist and user area (Disabled by default) */
 /* @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/square-avatar.css"); */
 
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/acrylic-popups.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/contrast-name.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/custom-home.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/custom-titlebar.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/dim-muted.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/fix-modview.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/locked-recolor.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/nsfw-recolor.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/search-button.css");
+
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/tab-cord.css");
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/loading-icon.css");
