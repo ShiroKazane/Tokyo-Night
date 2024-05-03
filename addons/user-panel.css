@@ -24,10 +24,6 @@
   transition: .2s ease;
   background: transparent !important;
 
-  &:hover {
-    margin-bottom: 0;
-  }
-
   & > .avatarWrapper__500a6 {
     width: 100%;
     height: 50px;
@@ -91,14 +87,10 @@
   border-radius: 8px;
   position: relative;
   transition: background 250ms ease-in-out;
-}
 
-body:has(.vc-spotify-pause) .panels__58331 {
-  background: color-mix(
-    in srgb,
-    var(--brand-experiment) 25%,
-    rgba(0, 0, 0, 0.25)
-  ) !important;
+  &:hover > .container_debb33 {
+    margin-bottom: 0;
+  }
 }
 
 /* [[ SPOTIFY CONTROLS ]] */
