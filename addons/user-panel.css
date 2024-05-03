@@ -130,6 +130,15 @@
     background: LightBlue;
   }
 
+  & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
+    color: var(--interactive-normal) !important;
+  }
+
+  & .vc-spotify-repeat,
+  & .vc-spotify-repeat-1 {
+      color: PowderBlue;
+  }
+
   & .vc-spotify-button.vc-spotify-button {
     --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     background: var(--inversed-overlay,var(--background-primary)) !important;
@@ -140,15 +149,6 @@
     &:hover {
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
       color: PowderBlue;
-    }
-
-    & .vc-spotify-repeat,
-    & .vc-spotify-repeat-1 {
-        color: PowderBlue;
-    }
-
-    & .vc-spotify-repeat-off {
-        color: none;
     }
   }
 
