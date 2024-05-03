@@ -146,6 +146,10 @@
     & .vc-spotify-repeat-1 {
         color: PowderBlue;
     }
+
+    & .vc-spotify-repeat-off {
+        color: none;
+    }
   }
 
   & .vc-spotify-button-row {
