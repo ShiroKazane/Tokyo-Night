@@ -53,6 +53,13 @@
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/custom-titlebar.css");
 
+:root{
+    --blur-popup: 40px;
+    --opacity-popup: 0.6;
+    --radius-popup: 14px;
+    --radius-context: 8px;
+}
+
 /* ==== Discord Variables ==== */
 .theme-dark { /* Dark Mode */
 
