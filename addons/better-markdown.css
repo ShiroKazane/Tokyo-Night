@@ -1,0 +1,6 @@
+[class*=messageContent] :is(h1, h2, h3) {
+  color: salmon;
+}
+[class*=messageContent] strong {
+    color: lightsalmon;
+}
