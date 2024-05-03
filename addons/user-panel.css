@@ -35,6 +35,8 @@
     margin: 0;
     box-sizing: border-box;
     border-radius: unset;
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    transition: color .15s ease-out,background-color .15s ease-out;
 
     & .hoverRoll__3ea9e {
       cursor: pointer;
