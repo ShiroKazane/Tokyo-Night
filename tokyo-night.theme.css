@@ -61,11 +61,15 @@
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/fix-modview.css");
 
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/hide-serverlist.css");
+
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/loading-icon.css");
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/locked-recolor.css");
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/nsfw-recolor.css");
+
+@import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/ping-color.css");
 
 @import url("https://raw.githubusercontent.com/ShiroKazane/Tokyo-Night/main/addons/masked-url.css");
 
