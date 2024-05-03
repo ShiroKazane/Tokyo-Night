@@ -39,6 +39,10 @@
     & .hoverRoll__3ea9e {
       cursor: pointer;
     }
+
+    &:hover {
+      background: transparent !important;
+    }
   }
 
   & button {
@@ -63,10 +67,6 @@
     padding: 6px;
     gap: 6px;
   }
-
-/*   & .button__581d0:hover .contents__322f4 {
-    color: var(--bg-overlay-active,var(--background-modifier-active));
-  } */
 }
 
 [class^="actionButtons_"] {
