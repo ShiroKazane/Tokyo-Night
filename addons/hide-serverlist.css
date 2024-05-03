@@ -1,0 +1,10 @@
+[class*=" guilds__"] {
+    width: 10px;
+    transition: width 0.2s ease 0.1s, opacity 0.2s ease 0.1s;
+    opacity: 0;
+}
+
+[class*=" guilds__"]:hover {
+    width: 65px;
+    opacity: 1;
+}
