@@ -20,9 +20,13 @@
   gap: 0px;
   padding: 0;
   margin: 0;
-  margin-bottom: -45px;
+  margin-bottom: -44px;
   transition: .2s ease;
-  background: transparent !important;
+  background: var(--bg-overlay-app-frame, var(--background-tertiary)) !important;
+
+  &:hover {
+    margin-bottom: 0;
+  }
 
   & > .avatarWrapper__500a6 {
     width: 100%;
@@ -39,25 +43,33 @@
 
   & button {
     background: transparent;
-    height: 40px;
-    width: 90%;
-    margin: 0 5px 5px 5px;
-    border-radius: 8px;
-    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 50px;
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary));
+    transition: color .15s ease-out,background-color .15s ease-out;
 
     &:hover {
-      background: var(--brand-experiment-700) !important;
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+    }
+
+    &:active {
+      background: var(--bg-overlay-active,var(--background-modifier-active)) !important;
     }
   }
 
   & .flex_f18b02 {
     width: 100%;
     justify-content: center;
-    gap: 0px;
+    box-sizing: border-box;
+    padding: 6px;
+    gap: 6px;
   }
 
   & .button__581d0:hover .contents__322f4 {
-    color: var(--interactive-hover);
+    color: var(--bg-overlay-active,var(--background-modifier-active));
   }
 }
 
@@ -69,11 +81,21 @@
   padding-top: 0;
 
   & [class^="button_"][class*="buttonColor_"] {
-    height: 40px;
-    background: transparent;
+    height: fit-content;
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 50px;
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary)) !important;
+    transition: color .15s ease-out,background-color .15s ease-out;
+    max-height: 32px;
 
     &:hover {
-      background: var(--brand-experiment-700) !important;
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+    }
+
+    &:active {
+      background: var(--bg-overlay-active,var(--background-modifier-active)) !important;
     }
   }
 }
@@ -86,16 +108,16 @@
   margin: 8px;
   border-radius: 8px;
   position: relative;
-  transition: background 250ms ease-in-out;
-
-  &:hover > .container_debb33 {
-    margin-bottom: 0;
-  }
+  --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+  background: var(--inversed-overlay,var(--background-primary));
+  transition: color .15s ease-out,background-color .15s ease-out;  
 }
 
 /* [[ SPOTIFY CONTROLS ]] */
 #vc-spotify-player {
-  background: transparent !important;
+  --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+  background: var(--inversed-overlay,var(--background-primary));
+  transition: color .15s ease-out,background-color .15s ease-out;
   border-bottom: none;
   padding: 14px 12px;
 
@@ -105,22 +127,24 @@
   }
 
   & [class*="barFill"] {
-    background: var(--brand-experiment);
-  }
-
-  & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
-    color: var(--brand-experiment-300) !important;
+    background: LightBlue;
   }
 
   & .vc-spotify-button.vc-spotify-button {
-    color: var(--brand-experiment);
-    background: color-mix(in srgb, var(--brand-experiment) 25%, transparent);
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary)) !important;
+    transition: color .15s ease-out,background-color .15s ease-out;
     margin: 0 4px;
     scale: 0.85;
 
     &:hover {
-      background: color-mix(in srgb, var(--brand-experiment) 50%, transparent);
-      color: var(--brand-experiment-300);
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+      color: PowderBlue;
+    }
+
+    & .vc-spotify-repeat,
+    & .vc-spotify-repeat-1 {
+        color: PowderBlue;
     }
   }
 
