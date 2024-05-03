@@ -42,7 +42,7 @@
     }
 
     &:hover {
-      background: var(--background-primary);
+      background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     }
   }
 
