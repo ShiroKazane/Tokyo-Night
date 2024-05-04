@@ -13,6 +13,7 @@
 
 [class^="search_"]:not(.open_d3ab4e) .iconContainer__9f124 {
     transform: scale(1.4);
+    transition: transform .2s ease;
 }
 
 [class^="search_"].open_d3ab4e .iconContainer__9f124 {
