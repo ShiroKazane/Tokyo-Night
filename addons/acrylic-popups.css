@@ -54,7 +54,7 @@
 .input__2a648, .scroller_d4b86c, .menu__088f7, #popout_4842, 
 .contentWrapper_e0bb2c,  .wrapper__45980,
 .scroller__8f066, .container__d6dad3, .resultsGroup_b221b0,
-.contentWrapper_e0bb2c, .emojiPicker__5e2e2, .inspector__80c84, 
+.contentWrapper_e0bb2c, .inspector__80c84, 
 .header_e5d8b2, .modal__082b3, .rolePill_f50ff5,  .previewContainer__1e0bb,
 .container_eb737e,.container_cdf5a8, .footer_f06dbb, 
 .reactors__0f305, .scroller__9a4f3, .list__4e6aa, .header__6d44a, .container__9922f, .wrapper__35c78,
@@ -419,7 +419,7 @@ border-radius: inherit;
     margin-top: 0;
 }
 
-.emojiPicker__5e2e2, .container_aa220a {
+.container_aa220a {
     box-shadow: none;
 }
 .animatorLeft_f985f4 ::before {
