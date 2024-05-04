@@ -456,11 +456,11 @@ form.form__7ab21 {
 
 .rootWithShadow_d20cd6:not(:has(> .quickswitcher_b5bb0a)),
 .quickswitcher_b5bb0a {
-    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 1)!important;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, .5)!important;
     border-radius: var(--radius-context);
 }
 .root_ba16f0.root_a28985.small_f8e677.fullscreenOnMobile__05784 {
-    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 1)!important;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, .5)!important;
 }
 
 .root_a28985 {
