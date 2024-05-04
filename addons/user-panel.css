@@ -143,6 +143,7 @@
 
   & .vc-spotify-button-row {
     margin-top: 15px;
+    margin-bottom: 6px;
   }
 
   & :is(.vc-spotify-time-right, .vc-spotify-time-left) {
@@ -151,13 +152,7 @@
     letter-spacing: 0.05em;
   }
 
-  &
-    :is(
-      .vc-spotify-comma,
-      .vc-spotify-ellipoverflow,
-      .vc-spotify-artist,
-      .vc-spotify-album
-    ) {
+  & :is(.vc-spotify-comma, .vc-spotify-ellipoverflow, .vc-spotify-artist, .vc-spotify-album) {
     margin-top: -2px;
     font-weight: 600;
   }
