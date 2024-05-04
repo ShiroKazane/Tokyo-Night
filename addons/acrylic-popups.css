@@ -28,11 +28,11 @@
 }
 
 /*slight tint*/
-.theme-light .wrapper__45980, .theme-light .inner__999f6,
+.theme-light .inner__999f6,
 .theme-light .inner__178b2 {
     background: rgba(0, 0, 0, 0.05) !important;
 }
-.theme-dark .wrapper__45980, .theme-dark .inner__999f6,
+.theme-dark .inner__999f6,
 .theme-dark .inner__178b2 {
     background: rgba(255, 255, 255, 0.05) !important;
 }
@@ -48,7 +48,7 @@
 .messagesPopoutWrap__10dd1, 
 .header__21b33, .container__84c26,.quickswitcher_b5bb0a, 
 .input__2a648, .scroller_d4b86c, .menu__088f7, #popout_4842, 
-.contentWrapper_e0bb2c,  .wrapper__45980,
+.contentWrapper_e0bb2c,  .,
 .scroller__8f066, .container__d6dad3, .resultsGroup_b221b0,
 .contentWrapper_e0bb2c, .inspector__80c84, 
 .header_e5d8b2, .modal__082b3, .rolePill_f50ff5,  .previewContainer__1e0bb,
