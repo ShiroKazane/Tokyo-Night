@@ -119,22 +119,21 @@
   & [class*="barFill"] {
     background: LightBlue;
   }
+  
+  & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
+      color: var(--interactive-normal) !important;
+  }
 
+  & .vc-spotify-button-row:is(.vc-spotify-shuffle-on, .vc-spotify-repeat, .vc-spotify-repeat-1) {
+      color: PowderBlue;
+  }
 
-  & .vc-spotify-button.vc-spotify-button {
+  & .vc-spotify-button-row.vc-spotify-button {
     --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     background: var(--inversed-overlay,var(--background-primary)) !important;
     transition: color .15s ease-out,background-color .15s ease-out;
     margin: 0 4px;
     scale: 0.85;
-    
-    & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
-      color: var(--interactive-normal) !important;
-    }
-  
-    & :is(.vc-spotify-shuffle-on, .vc-spotify-repeat, .vc-spotify-repeat-1) {
-        color: PowderBlue;
-    }
 
     &:hover {
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
