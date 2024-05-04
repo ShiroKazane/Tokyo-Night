@@ -1,4 +1,3 @@
-[class*=username_][style],
-.mention[style],
-[class*=membersGroup_] [style]
- { filter:contrast(.2) brightness(1.2) saturate(500%); }
+[class*=username_][style], .mention[style], [class*=membersGroup_] [style] {
+    filter:contrast(.2) brightness(1.2) saturate(500%);
+}

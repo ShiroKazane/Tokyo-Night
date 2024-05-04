@@ -1,24 +1,24 @@
-.search_ac353c:not(.open_d3ab4e) > .searchBar__5a20a {
+[class^="search_"]:not(.open_d3ab4e) > .searchBar__5a20a {
     width: 22px;
     background: transparent;
 }
 
-.searchBarComponent__8f95f{
+[class^="searchBarComponent__"] {
     background: transparent;
 }
 
-.search_ac353c:not(.open_d3ab4e) .iconLayout__9d9a4 {
+[class^="search_"]:not(.open_d3ab4e) .iconLayout__9d9a4 {
     cursor: pointer;
 }
 
-.search_ac353c:not(.open_d3ab4e) .iconContainer__9f124 {
+[class^="search_"]:not(.open_d3ab4e) .iconContainer__9f124 {
     transform: scale(1.4);
 }
 
-.search_ac353c:not(.open_d3ab4e) .icon__5c8c7 {
+[class^="search_"]:not(.open_d3ab4e) [class^="icon__"] {
     color: var(--interactive-normal);
 }
 
-.search_ac353c:not(.open_d3ab4e):hover .icon__5c8c7 {
+[class^="search_"]:not(.open_d3ab4e):hover [class^="icon__"] {
     color: var(--interactive-active);
 }

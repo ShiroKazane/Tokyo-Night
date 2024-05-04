@@ -1,7 +1,18 @@
-.container__827e6 video.ready__61f2f {
+[class^=tipTitle] {
+    text-transform: none;
+    font-size: 0px;
+}
+
+[class^=tipTitle]::after {
+    content: "Vennie.";
+    font-size: 16px;
+}
+
+[class^="ready"] {
     display: none;
 }
-.content_de05de::before {
+
+[class^=container] > [class^=content]::before {
     visibility: visible;
     content: '';
     display: block;

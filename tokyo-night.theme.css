@@ -20,26 +20,25 @@
 */
 
 /* ====== Optional Addons ====== */
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/revert-rebrand.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/discolored.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/acrylic-popups.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/better-markdown.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/better-authapps.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/colorize-markdown.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/contrast-name.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/custom-home.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/custom-preload.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/custom-titlebar.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/dim-muted.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/discolored.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/fix-modview.css");
 /* @import url("https://shirokazane.github.io/Tokyo-Night/addons/hide-serverlist.css"); */
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/loading-icon.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/nsfw-recolor.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/private-recolor.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/pretty-connected.css");
-/* @import url("https://shirokazane.github.io/Tokyo-Night/addons/profile-border.css"); */
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/locked-recolor.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/masked-url.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/minimize-authapp.css");
-@import url("https://shirokazane.github.io/Tokyo-Night/addons/reduce-motion.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/nsfw-recolor.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/pretty-connected.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/revert-rebrand.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/search-button.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/tab-cord.css");
+@import url("https://shirokazane.github.io/Tokyo-Night/addons/unanimate.css");
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/user-panel.css");
 /* @import url("https://shirokazane.github.io/Tokyo-Night/addons/user-reimagined.css"); */
 @import url("https://shirokazane.github.io/Tokyo-Night/addons/viggy-clyde.css");

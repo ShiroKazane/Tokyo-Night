@@ -122,61 +122,59 @@
 }
 
 /* Scrollbar */
-.auto-2K3UW5::-webkit-scrollbar-thumb,
-.auto-2K3UW5::-webkit-scrollbar-track {
+[class^="auto-"]::-webkit-scrollbar-thumb,
+[class^="auto-"]::-webkit-scrollbar-track {
   height: 100px;
   border-right: 0px solid transparent;
   border-left: 8px solid transparent;
   border-radius: 0px;
 }
-.auto-2K3UW5::-webkit-scrollbar-thumb:hover {
+[class^="auto-"]::-webkit-scrollbar-thumb:hover {
   background-color: var(--scrollbar-auto-thumb-hover);
 }
 
 /* Tooltips */
-.tooltipPrimary-3qLMbS,
-.toolbar__894c6 {
+[class^="tooltipPrimary-"],
+[class^="toolbar__"] {
   background-color: var(--background-secondary-alt) !important;
 }
-.toolbar__894c6:before {
+[class^="toolbar__"]:before {
   border-top-color: var(--background-secondary-alt);
 }
-.tooltipPrimary-3qLMbS .tooltipPointer-3L49xb {
+[class^="tooltipPrimary-"] [class^="tooltipPointer-"] {
   border-top-color: var(--background-secondary-alt) !important;
 }
 
 /* Friend list tab */
-.friendSelected__98d91 {
+[class^="friendSelected__"] {
   background-color: var(--background-tertiary) !important;
 }
 .outer_a41cf3.interactive__46c44:hover {
   background-color: var(--background-tertiary) !important;
 }
-.inset__61d5b,
-.separator_fc3370 {
+.inset__61d5b, .separator_fc3370 {
   background-color: var(--background-secondary) !important;
 }
-.pageWrapper_c182d3,
-.container_bd15da {
+.pageWrapper_c182d3, .container_bd15da {
   background-color: var(--background-primary) !important;
 }
 
 /* Chat Box */
-.buttons__7ecff {
+[class^="buttons__"] {
   opacity: 0;
   transition: opacity .15s;
 }
-.channelTextArea_c2094b:hover .buttons__7ecff {
+[class^="channelTextArea_"]:hover [class^="buttons__"] {
   opacity: 1;
 }
-.placeholder_dec8c7 {
+[class^="placeholder_"] {
   color: var(--text-muted) !important;
 }
 .lookFilled-1GseHa.colorPrimary-2AuQVo {
   color: var(--text-normal) !important;
   background-color: var(--background-primary) !important;
 }
-.mentionButton__73096 {
+[class^="mentionButton__"] {
   color: var(--accent-color);
 }
 .scrollableContainer_ff917f {
@@ -184,7 +182,7 @@
   border-bottom: 2px var(--background-tertiary) solid;
   transition: border-color .15s ease;
 }
-.emptyChannelIcon_d45c50 {
+[class^="emptyChannelIcon_"] {
   background-color: var(--background-tertiary);
 }
 
@@ -821,12 +819,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 
 /* ~~~~		  		Watermark							~~~~ */
 
-.wordmarkWindows_ffbc5e svg {
-  position: fixed;
-  top: 3px;
-  left: 50%;
-  transform: translate(-50%);
-}
 .typeWindows_e41dab {
   z-index: 1;
   background-color: var(--background-secondary-alt);

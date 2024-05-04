@@ -1,14 +1,14 @@
-.wrapper__8436d[data-list-item-id="guildsnav___home"] .childWrapper_a6ce15 {
+[class^="wrapper__"][data-list-item-id="guildsnav___home"] [class^="childWrapper_"] {
     background: url("https://media.discordapp.net/stickers/1235977520101195808.png?size=240") no-repeat center !important;
     background-size: cover !important;
     transform: scaleX(-1);
 }
 
-.wrapper__8436d[data-list-item-id="guildsnav___home"]:not(.selected_ae80f7) .childWrapper_a6ce15 {
+[class^="wrapper__"][data-list-item-id="guildsnav___home"]:not(.selected_ae80f7) [class^="childWrapper_"] {
     background: url("https://media.discordapp.net/stickers/1235977520101195808.png?size=240&passthrough=false") no-repeat center !important;
     background-size: cover !important;
 }
 
-.wrapper__8436d[data-list-item-id="guildsnav___home"] .childWrapper_a6ce15 svg {
+[class^="wrapper__"][data-list-item-id="guildsnav___home"] [class^="childWrapper_"] svg {
     display: none;
 }
