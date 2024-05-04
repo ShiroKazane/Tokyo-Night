@@ -960,6 +960,10 @@ button[aria-label="Send a gift"],
   display: none;
 }
 
+.contents__322f4 {
+  color: var(--text-normal);
+}
+
 /* Consistent Account and Server Join Date */
 .discordMemberCreatedAtIconContainer-2oMHqL {
   padding: 0px;
