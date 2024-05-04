@@ -347,11 +347,7 @@
     margin-bottom: 1px;
 }
 
-.contentWrapper_e0bb2c {
-    background-color: var(--background-secondary) !important;
-}
-
-.wrapper__45980 {
+:is(.contentWrapper_e0bb2c, .picker__6dca7, .wrapper__45980) {
     background-color: var(--background-secondary) !important;
 }
 
