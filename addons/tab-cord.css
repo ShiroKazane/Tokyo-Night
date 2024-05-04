@@ -27,7 +27,7 @@ div[class*="menu_"][role*="menu"] {
     border-radius: 16px;
 }
 /* message bar & msg bar buttons */
-.channelTextArea__648e5 {border-radius: 16px;}
+.channelTextArea__648e5, .privateChannels__9b518 {border-radius: 16px;}
 .webkit__8d35a .buttons__7ecff {
   margin-right: 0px;
 }
