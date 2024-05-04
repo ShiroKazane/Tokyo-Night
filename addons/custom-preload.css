@@ -12,7 +12,7 @@
     display: none;
 }
 
-[class^=container] > [class^=content]::before {
+[class^=container] > .content_de05de::before {
     visibility: visible;
     content: '';
     display: block;
