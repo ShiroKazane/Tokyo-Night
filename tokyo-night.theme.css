@@ -95,7 +95,7 @@
 	bottom: 0;
 	pointer-events: none;
 	width: 2px;
-	background-color: var(----info-danger-foreground);
+	background-color: var(--info-danger-foreground);
     }
 }
 
