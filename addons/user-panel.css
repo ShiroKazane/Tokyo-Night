@@ -36,6 +36,7 @@
     margin: 0;
     box-sizing: border-box;
     border-radius: 8px;
+    background: var(--background-secondary-alt);
     transition: color .15s ease-out,background-color .15s ease-out;
 
     & .hoverRoll__3ea9e {
@@ -67,6 +68,7 @@
     width: 100%;
     justify-content: center;
     box-sizing: border-box;
+    background: var(--background-secondary-alt);
     padding: 6px;
     gap: 6px;
   }
@@ -108,10 +110,16 @@
 
 /* [[ SPOTIFY CONTROLS ]] */
 #vc-spotify-player {
+  height: 52px;
   background: transparent !important;
   border-bottom: none;
   padding: 14px 12px;
   padding-bottom: 0;
+  transition: height .2s ease;
+
+  &:hover {
+    height: 122px;
+  }
 
   & [class*="bar_"] {
     background: var(--background-modifier-accent);
