@@ -352,6 +352,10 @@ border-radius: inherit;
     margin-bottom: 1px;
 }
 
+.scroller_ac6d1c {
+    background-color: var(--background-modifier-selected);
+}
+
 /*.theme-light .defaultColor__30336,*/ .theme-light .misc__9152e, 
 .theme-light>.userProfileInner__8ff35 .discriminator__9d9f2,
 .theme-light.userProfileModalOuter__90b4a .additionalActionsIcon__6b109,
@@ -424,11 +428,11 @@ border-radius: inherit;
 
 .theme-light .unicodeShortcut__01a83 {
     backdrop-filter: blur(8px) contrast(0.5) brightness(1.3);
-    background: none;
+    background: var(--background-tertiary);
 }
 .theme-dark .unicodeShortcut__01a83 {
     backdrop-filter: blur(8px) brightness(0.8);
-    background: none;
+    background: var(--background-tertiary);
 }
   
 :not(aside):not(.customizationSection__0f57e)>.userProfileOuterThemed_a425f3::before {
