@@ -348,11 +348,11 @@
 }
 
 .contentWrapper_e0bb2c {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary) !important;
 }
 
 .wrapper__45980 {
-    background-color: var(--background-secondary);
+    background-color: var(--background-secondary) !important;
 }
 
 /*.theme-light .defaultColor__30336,*/ .theme-light .misc__9152e, 
