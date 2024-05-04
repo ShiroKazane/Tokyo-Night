@@ -110,6 +110,7 @@
   background: transparent !important;
   border-bottom: none;
   padding: 14px 12px;
+  padding-bottom: 0;
 
   & [class*="bar_"] {
     background: var(--background-modifier-accent);
