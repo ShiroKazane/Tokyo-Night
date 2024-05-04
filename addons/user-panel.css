@@ -135,7 +135,7 @@
   }
 
   & [class*="barFill"] {
-    background: LightBlue;
+    background: var(--text-normal);
   }
   
   & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
@@ -143,7 +143,7 @@
   }
 
   & .vc-spotify-button-row :is(.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track) {
-      color: PowderBlue;
+      color: var(--text-normal);
   }
 
   & .vc-spotify-button-row.vc-spotify-button {
