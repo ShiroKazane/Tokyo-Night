@@ -124,7 +124,7 @@
       color: var(--interactive-normal) !important;
   }
 
-  & .vc-spotify-button-row:is(.vc-spotify-shuffle-on, .vc-spotify-repeat, .vc-spotify-repeat-1) {
+  & .vc-spotify-button-row :is(.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track) {
       color: PowderBlue;
   }
 
