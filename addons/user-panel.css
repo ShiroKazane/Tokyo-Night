@@ -29,9 +29,9 @@
   }
 
   & > .avatarWrapper__500a6 {
-    width: 100%;
+    width: calc(100% - 12px);
     height: 50px;
-    padding: 0 16px;
+    padding: 0 8px;
     margin: 0;
     box-sizing: border-box;
     border-radius: 8px;
