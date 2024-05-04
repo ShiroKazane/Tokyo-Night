@@ -1,5 +1,5 @@
 .icon__67ab4:has(path[d^="M16 4h.5v"]) path[d^="M16 4h.5v"] {
   /* fill: #fffaa0 !important; */
-  fill: var(--text-muted) !important;
+  fill: var(--text-warning) !important;
   border: 1px solid rebeccapurple !important;
 }
