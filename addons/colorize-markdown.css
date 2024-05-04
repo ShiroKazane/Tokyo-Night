@@ -1,6 +1,3 @@
 [class*=messageContent] :is(h1, h2, h3) {
-  color: LightBlue;
-}
-[class*=messageContent] strong {
-  color: PowderBlue;
+  color: var(--header-primary);
 }
