@@ -133,18 +133,6 @@
   background-color: var(--scrollbar-auto-thumb-hover);
 }
 
-/* Tooltips */
-[class^="tooltipPrimary-"],
-[class^="toolbar__"] {
-  background-color: var(--background-secondary-alt) !important;
-}
-[class^="toolbar__"]:before {
-  border-top-color: var(--background-secondary-alt);
-}
-[class^="tooltipPrimary-"] [class^="tooltipPointer-"] {
-  border-top-color: var(--background-secondary-alt) !important;
-}
-
 /* Friend list tab */
 [class^="friendSelected__"] {
   background-color: var(--background-tertiary) !important;
@@ -502,15 +490,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* Channel List */
-.children_cde9af:after {
-  background: linear-gradient(90deg, rgba(54, 57, 63, 0) 0, var(--background-tertiary)) !important;
-}
-.container__26baa.themed_b152d4 {
-  background-color: var(--background-tertiary);
-}
-.container__7e23c {
-  background-color: var(--background-tertiary) !important;
-}
 .sidebar_e031be {
   background: var(--background-tertiary) !important;
 }
@@ -815,13 +794,6 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .footer-31IekZ,
 .footer_f06dbb {
   background-color: var(--background-tertiary) !important;
-}
-
-/* ~~~~		  		Watermark							~~~~ */
-
-.typeWindows_e41dab {
-  z-index: 1;
-  background-color: var(--background-secondary-alt);
 }
 
 /* ~~~~		  		     BD Support							~~~~ */
