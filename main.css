@@ -943,10 +943,11 @@ button:hover .fa-backward:hover{
 .icon__67ab4 .shc-hidden-channel-icon,
 .listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
 button[aria-label="Send a gift"],
+form[class*=form]::before,
+form[class*=form]::after,
 [href="/family-center"],
 [href="/discovery"],
 [href="/store"],
-.form_d8a4a1::after,
 .toolbar__62fb5 a,
 .gifTag__045e5 {
   display: none;
