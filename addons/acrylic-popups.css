@@ -395,18 +395,18 @@
 
 /*Tooltip*/
 .theme-light .tooltip__7b090, .theme-light .popoutContainer__66068 { 
-    --background-floating: rgba(255,255,255,var(--opacity-popup));
+    --background-floating: rgba(255,255,255,var(--opacity-popup)) !important;
     backdrop-filter: blur(var(--blur-popup));
 }
 .theme-dark .tooltip__7b090, .theme-dark .popoutContainer__66068 { 
-    --background-floating: rgba(0,0,0,var(--opacity-popup));
+    --background-floating: rgba(0,0,0,var(--opacity-popup)) !important;
     backdrop-filter: blur(var(--blur-popup));
 }
 .theme-dark .containerBackground__65bbe  { 
-    --background-floating: rgba(0,0,0,var(--opacity-popup));
+    --background-floating: rgba(0,0,0,var(--opacity-popup)) !important;
 }
 .theme-light .containerBackground__65bbe  { 
-    --background-floating: rgba(255,255,255,var(--opacity-popup));
+    --background-floating: rgba(255,255,255,var(--opacity-popup)) !important;
 }
 
 .container__3ac06{
@@ -532,8 +532,8 @@ form.form__7ab21 {
 }
 
 .theme-dark .tooltipPrimary__51b23 .tooltipPointer_f7411c{
-    --background-floating: rgba(0, 0, 0, calc(var(--opacity-popup) / 2));
+    --background-floating: rgba(0, 0, 0, calc(var(--opacity-popup) / 2)) !important;
 }
 .theme-light .tooltipPrimary__51b23 .tooltipPointer_f7411c {
-    --background-floating: rgba(255, 255, 255, calc(var(--opacity-popup)));
+    --background-floating: rgba(255, 255, 255, calc(var(--opacity-popup))) !important;
 }
