@@ -19,7 +19,7 @@
   margin: 6px 16px 16px !important;
 }
 [class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da  {
-  margin: 0 6px;
+  margin: 8px 6px;
   border-radius: 16px !important;
 }
 [class*="base_"]:not(:is(.base__87e58, .numberBadge__40d6f, .iconBadge__19638)), [class*="guilds_"] {
