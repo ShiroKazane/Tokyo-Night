@@ -1,4 +1,4 @@
-[class*="wordmarkWindows"] path:not(:first-child) {
+[class*="wordmarkWindows"] > svg {
     display: none;
 }
 [class*="wordmarkWindows"] {
