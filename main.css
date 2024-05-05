@@ -106,6 +106,10 @@
   --input-background: var(--background-secondary);
 }
 
+body, html {
+  text-rendering: optimizeLegibility !important;
+}
+
 /* ~~~~		  		General							~~~~ */
 .theme-dark ::selection {
   background-color: #515c7e40;
@@ -145,6 +149,20 @@
 }
 .pageWrapper_c182d3, .container_bd15da {
   background-color: var(--background-primary) !important;
+}
+
+/* Member list tab */
+div[class*="members"] {
+  padding: 8px;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+[class*="membersGroup"] {
+  height: unset;
+  padding: 8px 0 4px 8px;
+}
+[class*=membersWrap] {
+  height: 100%;
 }
 
 /* Chat Box */
