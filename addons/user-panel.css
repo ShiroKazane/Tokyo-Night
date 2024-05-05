@@ -73,7 +73,18 @@
   }
 }
 
-.container_e1958d {
+.container_e1958d:not(p) {
+    height: 34px;
+    overflow: hidden;
+    padding: 10px;
+    transition: height .2s ease;
+
+    &:hover {
+        height: 76px;
+    }
+}
+
+.container_e1958d:has(p) {
     height: 48px;
     overflow: hidden;
     padding: 10px;
