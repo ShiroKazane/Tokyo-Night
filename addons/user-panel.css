@@ -73,7 +73,7 @@
   }
 }
 
-.container_e1958d:not(p) {
+.container_e1958d:not(:has(p)) {
     height: 34px;
     overflow: hidden;
     padding: 10px;
@@ -199,6 +199,14 @@
     margin-left: 0;
     padding-left: 0;
     flex: 1 auto;
+  }
+
+  &:has(#vc-spotify-album-expanded-wrapper) {
+    height: 200px;
+
+    &:hover {
+        height: 276px;
+    }
   }
 }
 
