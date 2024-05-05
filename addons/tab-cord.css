@@ -3,7 +3,6 @@
 [class*="typing_"] {bottom: -4px;}
 [class*="banner"] {border-radius: 16px 16px 0 0;}
 [class*="mentioned"] {border-radius: 0 16px 16px 0;}
-[class*=profilePanel] {overflow: hidden;}
 [class^="userPanel"], [class^="userPanel"]::before, [class^="userProfile"], [class^="userProfile"]::before, [class^="userPopout"], [class^="userPopout"]::before, .root_ba16f0, [class*="applicationStore_"], [class*="shop_"], [class*="shopScroll_"], [class*="pageWrapper_fef757"] {border-radius: 16px;}
 [class*="scrollableContainer_"], [class*="floating_"], .container_def45c, .container__694a1 {border-radius: 16px !important;}
 [class*="searchBarComponent_"] {text-align: center !important;}
@@ -16,6 +15,7 @@
   border-radius: 16px !important;
   max-width: 340px;
   min-width: 340px;
+  overflow: hidden;
 }
 .profilePanelConnections__34438 {
   margin: 6px 16px 16px !important;
