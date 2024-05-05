@@ -147,13 +147,8 @@
   --channeltextarea-background: var(--background-secondary);
   --channeltextarea-background-hover: var(--background-tertiary);
 
-	/* Square avatar addons */
-	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
+  /* Square avatar addons */
+  --avatar-roundess: 5px;
 }
 
 .theme-light { /* Light Mode */
@@ -210,12 +205,5 @@
   --channeltextarea-background-hover: var(--background-tertiary);
 
   /* Square avatar addons */
-	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
-  --button-position: row;
-
+  --avatar-roundess: 5px;
 }
