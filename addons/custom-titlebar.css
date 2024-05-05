@@ -1,23 +1,11 @@
 [class*="wordmarkWindows"] > svg {
     display: none;
 }
-[class*="wordmarkWindows"] {
-    display: flex;
-    gap: 6px;
-    align-items: center;
-    order: 1;
-    margin-right: auto;
-    color: var(--header-primary);
-}
 [class*="wordmarkWindows"]::after {
     content: "Vennie";
-    display: flex;
     width: fit-content;
-    font-size: 12px;
+    color: var(--header-primary);
+    font-size: 15px;
     font-family: var(--font-display);
     font-weight: 700;
-}
-.platform-win .container__827e6 {
-    padding-top: 31px !important;
-    top: -31px !important;
 }
