@@ -151,20 +151,6 @@ body, html {
   background-color: var(--background-primary) !important;
 }
 
-/* Member list tab */
-div[class*="members"] {
-  padding: 8px;
-  border-radius: 8px !important;
-  overflow: hidden;
-}
-[class*="membersGroup"] {
-  height: unset;
-  padding: 8px 0 4px 8px;
-}
-[class*=membersWrap] {
-  height: 100%;
-}
-
 /* Chat Box */
 [class^="buttons__"] {
   opacity: 0;
