@@ -150,6 +150,9 @@ body, html {
 .pageWrapper_c182d3, .container_bd15da {
   background-color: var(--background-primary) !important;
 }
+.container_f79ab4 {
+  background-color: transparent !important;
+}
 
 /* Chat Box */
 [class^="buttons__"] {
