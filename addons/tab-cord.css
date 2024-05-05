@@ -49,7 +49,7 @@ div[class*="menu_"][role*="menu"] {
 }
 /* dialog popout (eg: leave server) & checkboxes */
 [class*="checkbox_"], [class*="popout__"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
-[class*="button_"], [class*="menu_"] {border-radius: 16px;}
+[class*="button_"]:not(:is(.button__581d0)), [class*="menu_"] {border-radius: 16px;}
 /* Member List */
 [class*="member"] {border-radius: 16px;}
 [class*="membersWrap_"] {height: calc(100% - 16px); border-radius: 16px; margin-top: 4px;}
