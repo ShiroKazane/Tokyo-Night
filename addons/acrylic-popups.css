@@ -6,7 +6,7 @@
 :not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedPremiumWithoutBanner_ee8277,
 :not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedNonPremium_b64fb4,
 :not(aside):not(.customizationSection__0f57e)>div>div>.overlayBackground__345c9 {
-    background: none!important;
+    background: none !important;
 }
 .userProfileInnerThemedNonPremium_b64fb4 .popoutBanner__3fbe8{
     opacity: 0;
@@ -66,7 +66,7 @@
 .addAnswerButton__1308f, .modalHeader_b1624c,
 .scrollTierBackground__89f3e, .wrapper_ba4346, .body__1451f,
 .wrapper__81567, .contentFill_bb9f67 {
-    background: none!important;
+    background: none !important;
 }
 
 .tier2__1364f::before {
@@ -111,7 +111,7 @@
 .prompt__671aa, .vc-notification, .guildPopout_df13cd, 
 .selectFilterPopout_ef1367, .container__79284,
 .root_a28985:has(>.content__73b77)  {
-    background: transparent!important;
+    background: transparent !important;
     backdrop-filter: blur(var(--blur-popup));
 
 }
@@ -142,7 +142,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: transparent;
+    background: transparent !important;
     z-index: -1;
     border-radius: inherit;
 }
@@ -334,10 +334,10 @@
 /*other*/
 .avatarHoverTarget__9b4a9 .svg_a6bf1c > circle,
 .root_ba16f0 .svg_a6bf1c > circle {
-    opacity: 0!important;
+    opacity: 0 !important;
 }  
 :not(aside):not(.customizationSection__0f57e)>div>div>div>div>svg>foreignObject>.banner__6d414 {
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 .resultsGroup_b221b0:before, .rolePillBorder_e3a889,
 .questionInput_f6087f {
@@ -357,7 +357,7 @@
 .theme-light>.userProfileInner__8ff35 .text-sm-normal__95a78, 
 .theme-light .text-sm-medium__726be[style*="color: var(--text-muted)"],
 .theme-light .text-xs-normal__46d75[style*="color: var(--header-secondary)"] {
-    color: rgba(0, 0, 0, 0.7)!important;
+    color: rgba(0, 0, 0, 0.7) !important;
 }
 /*.theme-dark .defaultColor__30336,*/ .theme-dark .misc__9152e, 
 .theme-dark>.userProfileInner__8ff35 .discriminator__9d9f2,
@@ -365,7 +365,7 @@
 .theme-dark>.userProfileInner__8ff35 .text-sm-normal__95a78,
 .theme-dark .text-sm-medium__726be[style*="color: var(--text-muted)"],
 .theme-dark .text-xs-normal__46d75[style*="color: var(--header-secondary)"] {
-    color: rgba(255, 255, 255, 0.7)!important;
+    color: rgba(255, 255, 255, 0.7) !important;
 }
 .theme-light>.userProfileInner__8ff35 .item__48dda  {
     color: rgba(0, 0, 0, 0.8);
@@ -447,7 +447,7 @@ form.form__7ab21 {
 }
 
 .backdrop__1a911:not(:has(~div>div>:is(.modal_d2e7a7,.carouselModal__7e22f))) {
-    background: none!important;
+    background: none !important;
 }
 
 .rootWithShadow_d20cd6:not(:has(> .quickswitcher_b5bb0a)),
