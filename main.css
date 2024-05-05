@@ -937,7 +937,7 @@ button:hover .fa-backward:hover{
 .banner__6d414:hover .premiumIconWrapper__7793e .textBadge_f05120,
 .banner__6d414:hover .bannerOverlay-1uIerX,
 .banner__6d414:hover .pencilIcon_e00224,
-div[aria-label="Explore Discoverable Servers"],
+.listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
 button[aria-label="Send a gift"],
 [href="/family-center"],
 [href="/discovery"],
