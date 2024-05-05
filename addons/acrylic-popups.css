@@ -347,8 +347,11 @@
     margin-bottom: 1px;
 }
 
-:is(.contentWrapper_e0bb2c, .picker__6dca7, .wrapper__45980) {
+:is(.contentWrapper_e0bb2c, .picker__6dca7) {
     background-color: var(--background-secondary) !important;
+}
+.wrapper__45980 {
+    background-color: var(--background-tertiary) !important;
 }
 
 /*.theme-light .defaultColor__30336,*/ .theme-light .misc__9152e, 
