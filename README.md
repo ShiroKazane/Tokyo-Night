@@ -1,6 +1,6 @@
 <h1 align="center">Tokyo Night</h1>
 
-![](https://github.com/ShiroKazane/Tokyo-Night/blob/main/src/assets/preview.png?raw=true)
+![](https://shirokazane.github.io/Tokyo-Night/assets/preview.png?raw=true)
 
 <p align="center">A clean, dark, Discord theme based on <a href="https://github.com/enkia/tokyo-night-vscode-theme">Tokyo Night</a> colorscheme.</p>
 
