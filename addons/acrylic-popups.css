@@ -306,11 +306,6 @@
     border-radius: var(--radius-popup);
 }
 
-:not(aside):not(.customizationSection__0f57e)>div>div>div>.overlayBackground__345c9 {
-    border-bottom-left-radius: max(var(--radius-popup) - 16px, 8px);
-    border-bottom-right-radius: max(var(--radius-popup) - 16px, 8px);
-}
-
 .submenuPaddingContainer__5a97c::before,
 .submenu_aed9ee.menu__088f7::before, .root_a28985::before, .form__7ab21::after,
 .menu__088f7::before, 
