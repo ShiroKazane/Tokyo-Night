@@ -4,8 +4,7 @@
 :not(aside):not(.customizationSection__0f57e)>.userProfileOuterUnthemed__9741c, 
 :not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedWithBanner_e9e7c5,
 :not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedPremiumWithoutBanner_ee8277,
-:not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedNonPremium_b64fb4,
-:not(aside):not(.customizationSection__0f57e)>div>div>.overlayBackground__345c9 {
+:not(aside):not(.customizationSection__0f57e)>div>.userProfileInnerThemedNonPremium_b64fb4 {
     background: none !important;
 }
 .userProfileInnerThemedNonPremium_b64fb4 .popoutBanner__3fbe8{
