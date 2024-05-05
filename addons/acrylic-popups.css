@@ -183,8 +183,8 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: var(--pop-up-color, var(--bg-overlay-3, var(--background-secondary)));
-    opacity: var(--opacity-popup);
+    background: var(--pop-up-color, var(--bg-overlay-3, var(--background-secondary))) !important;
+    opacity: var(--opacity-popup) !important;
     z-index: -1;
     border-radius: inherit;
 }
