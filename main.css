@@ -515,7 +515,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 .wrapper__612a5:not(.modeUnreadImportant__35358):not(:hover):not(.modeSelected__473f1) .icon__67ab4 {
   color: var(--channels-default);
 }
-.spine__88e6d {
+.spine__88e6d, .modeMuted_f0a72e .icon__67ab4, .modeMuted_f0a72e .name__4eb92 {
   color: var(--channels-default);
 }
 .total_c01838 {
@@ -937,6 +937,7 @@ button:hover .fa-backward:hover{
 .banner__6d414:hover .premiumIconWrapper__7793e .textBadge_f05120,
 .banner__6d414:hover .bannerOverlay-1uIerX,
 .banner__6d414:hover .pencilIcon_e00224,
+.icon__67ab4 .shc-hidden-channel-icon,
 .listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
 button[aria-label="Send a gift"],
 [href="/family-center"],
