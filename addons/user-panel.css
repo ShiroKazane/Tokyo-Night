@@ -102,6 +102,11 @@
     &:hover {
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
     }
+
+    & svg {
+      width: 20px;
+      height: 20px;
+    }
   }
 }
 
