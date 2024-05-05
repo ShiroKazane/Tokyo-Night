@@ -103,7 +103,7 @@
       background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
     }
 
-    & [class^="buttonIcon__"] {
+    & svg {
       width: 20px !important;
       height: 20px !important;
     }
