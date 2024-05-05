@@ -73,7 +73,7 @@
   }
 }
 
-.container_e1958d:not(:has(p)) {
+.container_e1958d {
     height: 34px;
     overflow: hidden;
     padding: 10px;
@@ -82,16 +82,16 @@
     &:hover {
         height: 76px;
     }
-}
 
-.container_e1958d:has(p) {
-    height: 48px;
-    overflow: hidden;
-    padding: 10px;
-    transition: height .2s ease;
-
-    &:hover {
-        height: 92px;
+    &:has(p) {
+        height: 48px;
+        overflow: hidden;
+        padding: 10px;
+        transition: height .2s ease;
+    
+        &:hover {
+            height: 92px;
+        }
     }
 }
 
