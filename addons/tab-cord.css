@@ -58,7 +58,7 @@ div[class*="menu_"][role*="menu"] {
   padding: 8px;
 }
 [class*=membersGroup] {
-  padding: 8px 0 4px 8px;
+  padding: 12px 0 4px 8px;
 }
 /* Button bar on message hover */
 .wrapper__4e6b6 {
