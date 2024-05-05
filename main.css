@@ -936,6 +936,12 @@ button:hover .fa-backward:hover{
   filter: contrast(100%);
 }
 
+/* Fix notes height: 0px; */
+
+textarea[aria-label^="Note"] {
+    height: auto !important;
+}
+
 /* Hide unused things */
 .banner__6d414:hover .premiumIconWrapper__7793e .textBadge_f05120,
 .banner__6d414:hover .bannerOverlay-1uIerX,
