@@ -55,11 +55,14 @@
     position: absolute;
     background-color: transparent;
 }
+[class*="sidebar_"], [class*="chat_"], [class*="guilds_"], .container_bd15da {
+    margin: 10px 6px 8px;
+}
 .platform-win .sidebar_e031be {
     border-radius: 0;
 }
 .platform-win .layer_f7d46a ,
 .platform-win .standardSidebarView__12528 {
     padding-top: 0;
-    top: 10px;
+    top: 0px;
 }
