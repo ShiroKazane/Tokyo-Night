@@ -354,27 +354,17 @@
     background-color: var(--background-tertiary) !important;
 }
 
-/*.theme-light .defaultColor__30336,*/ .theme-light .misc__9152e, 
-.theme-light>.userProfileInner__8ff35 .discriminator__9d9f2,
-.theme-light.userProfileModalOuter__90b4a .additionalActionsIcon__6b109,
-.theme-light>.userProfileInner__8ff35 .text-sm-normal__95a78, 
+/*.theme-light .defaultColor__30336,*/ .theme-light .misc__9152e,,
+.theme-light.userProfileModalOuter__90b4a .additionalActionsIcon__6b109,, 
 .theme-light .text-sm-medium__726be[style*="color: var(--text-muted)"],
 .theme-light .text-xs-normal__46d75[style*="color: var(--header-secondary)"] {
     color: rgba(0, 0, 0, 0.7) !important;
 }
-/*.theme-dark .defaultColor__30336,*/ .theme-dark .misc__9152e, 
-.theme-dark>.userProfileInner__8ff35 .discriminator__9d9f2,
-.theme-dark .userProfileModalOuter__90b4a .additionalActionsIcon__6b109,
-.theme-dark>.userProfileInner__8ff35 .text-sm-normal__95a78,
+/*.theme-dark .defaultColor__30336,*/ .theme-dark .misc__9152e, ,
+.theme-dark .userProfileModalOuter__90b4a .additionalActionsIcon__6b109,,
 .theme-dark .text-sm-medium__726be[style*="color: var(--text-muted)"],
 .theme-dark .text-xs-normal__46d75[style*="color: var(--header-secondary)"] {
     color: rgba(255, 255, 255, 0.7) !important;
-}
-.theme-light>.userProfileInner__8ff35 .item__48dda  {
-    color: rgba(0, 0, 0, 0.8);
-}
-.theme-dark>.userProfileInner__8ff35 .item__48dda {
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .theme-light .defaultColor__8610e, .theme-dark .defaultColor__8610e {
