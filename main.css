@@ -942,7 +942,7 @@ textarea[aria-label^="Note"] {
 /* Hide unused things */
 .banner__6d414:hover .premiumIconWrapper__7793e .textBadge_f05120,
 .banner__6d414:hover .bannerOverlay-1uIerX,
-.banner__6d414:hover .pencilIcon_e00224,
+.banner__6d414 [class^="pencilContainer"],
 .listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
 svg[class*="icon"].shc-hidden-channel-icon,
 button[aria-label="Send a gift"],
