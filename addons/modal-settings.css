@@ -1,6 +1,5 @@
 /* Modal Settings */
 :has([class^=standardSidebarView_]) {
-    backdrop-filter: blur(30px);
     top: 0 !important;
     opacity: 1 !important;
 
@@ -9,7 +8,7 @@
     }
 
     [class^="typeWindows"] {
-        filter: blur(3px);
+        opacity: .45;
     }
 }
 [class^=layer_]:not([class^=layerContainer_] [class^=layer_]) + [class^=layer_]  {
@@ -27,6 +26,5 @@
 [class*=baseLayer_]:nth-last-child(2) {
     opacity: .45 !important;
     transform: unset !important;
-    filter: blur(3px);
     pointer-events: none !important;
 }
