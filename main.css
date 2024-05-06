@@ -165,14 +165,14 @@ body, html {
 [class^="placeholder_"] {
   color: var(--text-muted) !important;
 }
-.lookFilled-1GseHa.colorPrimary-2AuQVo {
+[class^="lookFilled"][class^="colorPrimary"] {
   color: var(--text-normal) !important;
   background-color: var(--background-primary) !important;
 }
 [class^="mentionButton__"] {
   color: var(--accent-color);
 }
-.scrollableContainer_ff917f {
+[class^="scrollableContainer"] {
   border-radius: 5px;
   border-bottom: 2px var(--background-tertiary) solid;
   transition: border-color .15s ease;
@@ -212,26 +212,26 @@ body, html {
 }
 
 /* Jump to present & New message bar */
-.newMessagesBar__8b272 {
+[class^="newMessagesBar"] {
   background-color: var(--background-accent);
   border-radius: 50px;
   margin-top: 5px;
 }
-.jumpToPresentBar__69174,
-.jumpToPresentBar__69174:active {
+[class^="jumpToPresentBar"],
+[class^="jumpToPresentBar"]:active {
   margin-bottom: 13px;
   border-radius: 20px;
   padding: 0;
 }
 
 /* Top Bar */
-#app-mount .children_cde9af > .iconWrapper_de6cd1 svg,
+#app-mount [class^="children"] > [class^="iconWrapper"] svg,
 #app-mount .base-21yXnu {
   color: var(--header-primary);
 }
 
 /* Voice Call Tab */
-.callContainer__1477d  {
+[class^="callContainer"]  {
   background-color: var(--background-floating) !important;
 }
 .header__43611 {
@@ -243,7 +243,7 @@ body, html {
 }
 
 /* Thread Spine */
-.hasThread__44ae4:after {
+[class*="hasThread"]:after {
   border-left: 2px solid var(--interactive-normal) !important;
   border-bottom: 2px solid var(--interactive-normal) !important;
 }
@@ -260,7 +260,7 @@ svg[fill="hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%)"] {
 }
 
 /* Bot Tag */
-.botTagRegular_fc4b4a {
+[class*="botTagRegular"] {
   background: var(--accent-color) !important;
 }
 
