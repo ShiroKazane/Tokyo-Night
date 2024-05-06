@@ -12,7 +12,7 @@
         filter: blur(3px);
     }
 }
-[class^=layer_] + [class^=layer_] {
+[class^=layer_]:not([class^=layerContainer_] [class^=layer_]) + [class^=layer_]  {
     border-radius: 16px !important;
     background: oklch(.2 0 0 /.5) !important;
     box-shadow: 5px 5px 25px oklch(0 0 0 /.7) !important;

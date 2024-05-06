@@ -75,13 +75,13 @@ div[class*="menu_"][role*="menu"] {
 }
 /* Notice bar which pops up on the top to annoy everyone, (includes nitro notices, billing details, and the relationship plugin) */
 .notice__5fd4c {
-    border-radius: 16px;
-    line-height: 28px;
-    margin: 5px 12px 5px 4px;
-    max-width: 60vw;
-    justify-content: center;
-    display: flex;
-    left: 269px;
+  display: flex;
+  line-height: 28px;
+  min-width: 30vw;
+  border-radius: 16px;
+  margin-top: 4px;
+  justify-content: center;
+  align-self: center;
 }
 .closeButton__90904 {
     top: -4px;
