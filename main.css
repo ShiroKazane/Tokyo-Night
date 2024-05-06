@@ -223,6 +223,12 @@ body, html {
   border-radius: 20px;
   padding: 0;
 }
+[class^="attachedBars"], [class^="replyBar"] {
+  background: var(--background-tertiary);
+  border-radius: 50px;
+  margin-bottom: 6px;
+  padding: 0;
+}
 
 /* Top Bar */
 #app-mount [class^="children"] > [class^="iconWrapper"] svg,
@@ -937,6 +943,32 @@ button:hover .fa-backward:hover{
 
 textarea[aria-label^="Note"] {
     height: auto !important;
+}
+
+/* Fix setting heavy animation */
+
+#app-mount [class*="baseLayer"] {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+[class*="baseLayer"][aria-hidden="true"] {
+    pointer-events: none;
+}
+[class^="standardSidebarView"] {
+  opacity: 1 !important;
+}
+[class^=layer_]:not([class^=layerContainer_] [class^=layer_]) + [class^=layer_]  {
+    opacity: 1 !important;
+    transform: unset !important;
+}
+[class^=layer_]:not([class^=layerContainer_] [class^=layer_])[aria-hidden="false"] + [class^=layer_][aria-hidden="false"] {
+    display: none;
+}
+[class*="baseLayer"][aria-hidden="true"] {
+    pointer-events: none;
+}
+.layers__1c917 > .layer_f7d46a.animating_b7d085 {
+    will-change: unset !important;
 }
 
 /* Hide unused things */
