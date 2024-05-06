@@ -41,6 +41,7 @@
 }
 [class*="wordmarkWindows"] {
     display: flex;
+    height: unset;
     margin-left: var(--mactitlebar-left-margin);
     margin-top: calc(var(--mactitlebar-top-margin) - 5px);
 }
@@ -67,7 +68,7 @@
 [class*="chat_"], [class*="guilds_"], .container_bd15da {
     margin: 10px 6px 8px;
 }
-[class*="sidebar_"] {
+[class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
     margin: 32px 6px 10px;
 }
 .platform-win .sidebar_e031be {

@@ -1,0 +1,32 @@
+/* Modal Settings */
+:has([class^=standardSidebarView_]) {
+    backdrop-filter: blur(30px);
+    top: 0 !important;
+    opacity: 1 !important;
+
+    & [class^="contentRegionScroller"]::-webkit-scrollbar-track {
+        margin: 16px 0;
+    }
+
+    [class^="typeWindows"] {
+        filter: blur(3px);
+    }
+}
+[class^=layer_] + [class^=layer_] {
+    border-radius: 16px !important;
+    background: oklch(.2 0 0 /.5) !important;
+    box-shadow: 5px 5px 25px oklch(0 0 0 /.7) !important;
+    width: 1100px !important;
+    height: 80vh !important;
+    margin: auto !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    transform: unset !important;
+}
+  /* keep view under settings */
+[class*=baseLayer_]:nth-last-child(2) {
+    opacity: .45 !important;
+    transform: unset !important;
+    filter: blur(3px);
+    pointer-events: none !important;
+}
