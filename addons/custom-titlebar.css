@@ -1,8 +1,12 @@
+:root {
+    --titlebar-text: "Vennie";
+}
+
 [class*="wordmarkWindows"] > svg {
     display: none;
 }
 [class*="wordmarkWindows"]::after {
-    content: "Vennie";
+    content: var(--titlebar-text);
     width: fit-content;
     color: var(--header-primary);
     font-size: 15px;
