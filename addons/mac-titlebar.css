@@ -68,8 +68,11 @@
 [class*="chat_"], [class*="guilds_"], .container_bd15da {
     margin: 10px 6px 8px;
 }
-[class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
+:has([class^="typeWindows"]) > [class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
     margin: 32px 6px 10px;
+}
+:not(:has([class^="typeWindows"])) > [class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
+    margin: 24px 6px 10px;
 }
 .platform-win .sidebar_e031be {
     border-radius: 0;
