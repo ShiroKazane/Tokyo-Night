@@ -56,7 +56,7 @@
     background-color: transparent !important;
     cursor: default;
 }
-:has([class^="typeWindows"]) .guilds__2b93a {
+.platform-win .guilds__2b93a {
     padding-top: var(--macbuttons-serverlist-inner-top-margin);
     height: calc(100vh - var(--macbuttons-serverlist-inner-top-margin));
 }
@@ -68,7 +68,7 @@
 [class*="chat_"], [class*="guilds_"], .container_bd15da {
     margin: 10px 6px 8px;
 }
-:has([class^="typeWindows"]) [class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
+.platform-win [class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
     margin: 32px 6px 10px;
 }
 [class*="sidebar_"]:not(:is(.sidebar__02e8d)) {
