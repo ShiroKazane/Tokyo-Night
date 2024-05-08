@@ -77,7 +77,7 @@
     height: 34px;
     overflow: hidden;
     padding: 10px;
-    transition: height .2s ease;
+    transition: height .2s ease-out;
 
     &:hover {
         height: 76px;
@@ -87,7 +87,7 @@
         height: 48px;
         overflow: hidden;
         padding: 10px;
-        transition: height .2s ease;
+        transition: height .2s ease-out;
     
         &:hover {
             height: 92px;
@@ -120,6 +120,11 @@
   }
 }
 
+.contentWrapper_bfbca4:hover, .wrapper_a571fb:hover {
+    height: 108px !important;
+    transition: height .2s ease-out, opacity 0;
+}
+
 .panels__58331 {
   display: flex;
   flex-direction: column;
@@ -138,7 +143,7 @@
   border-bottom: none;
   padding: 14px 12px;
   padding-bottom: 0;
-  transition: height .2s ease;
+  transition: height .2s ease-out;
 
   &:hover {
     height: 122px;
