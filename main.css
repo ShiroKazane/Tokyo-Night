@@ -247,6 +247,9 @@ body, html {
   color: #fff;
   background-color: var(--accent-color);
 }
+[class^="participantsButton"] {
+  background: var(--background-floating);
+}
 
 /* Thread Spine */
 [class*="hasThread"]:after {
