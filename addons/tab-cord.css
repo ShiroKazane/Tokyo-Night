@@ -17,6 +17,9 @@
   min-width: 340px;
   overflow: hidden;
 }
+[class*="profilePanel_"][class*="banner"] {
+  width: 340px;
+}
 .profilePanelConnections__34438 {
   margin: 6px 16px 16px !important;
 }
