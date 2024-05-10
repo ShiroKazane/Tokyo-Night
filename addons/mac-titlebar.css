@@ -75,7 +75,7 @@
     margin: 24px 6px 10px;
 }
 [class^="base"]:has(.notice__5fd4c) [class*="sidebar_"]:not(:is(.sidebar__02e8d)){
-    margin: 0 6px 10px;
+    margin: 20px 6px 10px;
 }
 .platform-win .sidebar_e031be {
     border-radius: 0;
