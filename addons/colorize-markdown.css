@@ -1,3 +1,0 @@
-[class*=messageContent] :is(h1, h2, h3) {
-  color: var(--header-primary);
-}

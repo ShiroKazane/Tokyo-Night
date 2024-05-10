@@ -1,9 +1,0 @@
-.messageContent_abea64:hover > [class^="anchor_"][title$=")"]::after {
-    font-size: 0.7rem;
-    line-height: 4px; /* needed to avoid layout shifting */
-    content: " (" attr(href) ")";
-    color: var(--text-muted);
-}
-[class^="anchor_"][title$=")"]:hover {
-    text-decoration-color: #00000000 !important;
-}
