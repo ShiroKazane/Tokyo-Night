@@ -1,0 +1,224 @@
+/*
+ * @name UserPanel
+ * @author SEELE1306
+ * @authorLink https://github.com/SEELE1306
+ * @description Replaces the user panel with a customizable, more appealing version. Includes appearance changes to the Spotify media player.
+ * @authorId 518795791318384647
+ * @discord seele1306
+ */
+
+/* [[ USER PANEL ]] */
+[class^="nameTag_"][class*="canCopy_"] {
+  margin-left: 5px;
+}
+
+.container_debb33 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: fit-content;
+  gap: 0px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: -44px;
+  transition: .2s ease;
+  background: transparent !important;
+
+  &:hover {
+    margin-top: 6px;
+    margin-bottom: 0;
+  }
+
+  & > [class^="avatarWrapper__"] {
+    width: calc(100% - 12px);
+    height: 50px;
+    padding: 0 8px;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: var(--background-secondary-alt);
+    transition: color .15s ease-out,background-color .15s ease-out;
+
+    & .hoverRoll__3ea9e {
+      cursor: pointer;
+    }
+
+    &:hover {
+      --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+      background: var(--inversed-overlay,var(--background-primary));
+    }
+  }
+
+  & button {
+    height: fit-content;
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 50px;
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary));
+    transition: color .15s ease-out,background-color .15s ease-out;
+
+    &:hover {
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+    }
+  }
+
+  & .flex_f18b02 {
+    width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    background: var(--background-secondary-alt);
+    padding: 6px;
+    gap: 6px;
+  }
+}
+
+.container_e1958d {
+    height: 34px;
+    overflow: hidden;
+    padding: 10px;
+    transition: height .2s ease-out;
+
+    &:hover {
+        height: 76px;
+    }
+
+    &:has(p) {
+        height: 48px;
+        overflow: hidden;
+        padding: 10px;
+        transition: height .2s ease-out;
+    
+        &:hover {
+            height: 92px;
+        }
+    }
+}
+
+[class^="actionButtons_"] {
+  display: flexbox;
+  order: -1;
+  box-sizing: border-box;
+  gap: 6px;
+  padding-top: 6px;
+
+  & [class^="button_"][class*="buttonColor_"] {
+    height: fit-content;
+    width: 100%;
+    border-radius: 50px;
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary)) !important;
+    transition: color .15s ease-out,background-color .15s ease-out;
+
+    &:hover {
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+    }
+
+    & svg {
+      max-width: 20px !important;
+    }
+  }
+}
+
+.contentWrapper_bfbca4:hover, .wrapper_a571fb:hover {
+    height: 108px !important;
+    transition: height .2s ease-out, opacity 0;
+}
+
+.panels__58331 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 8px;
+  border-radius: 8px;
+  position: relative;
+  transition: background .25s ease-in-out;  
+}
+
+/* [[ SPOTIFY CONTROLS ]] */
+#vc-spotify-player {
+  height: 52px;
+  background: transparent !important;
+  border-bottom: none;
+  padding: 14px 12px;
+  padding-bottom: 0;
+  transition: height .2s ease-out;
+
+  &:hover {
+    height: 122px;
+  }
+
+  & [class*="bar_"] {
+    background: var(--background-modifier-accent);
+    height: 4px;
+  }
+
+  & [class*="barFill"] {
+    background: var(--text-normal);
+  }
+  
+  & :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
+      color: var(--interactive-normal) !important;
+  }
+
+  & .vc-spotify-button-row :is(.vc-spotify-shuffle-on, .vc-spotify-repeat-context, .vc-spotify-repeat-track) {
+      color: var(--text-normal);
+  }
+
+  & .vc-spotify-button-row.vc-spotify-button {
+    --inversed-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    background: var(--inversed-overlay,var(--background-primary)) !important;
+    transition: color .15s ease-out,background-color .15s ease-out;
+    margin: 0 4px;
+    scale: 0.85;
+
+    &:hover {
+      background: var(--bg-overlay-hover,var(--background-modifier-hover)) !important;
+      color: PowderBlue;
+    }
+  }
+
+  & .vc-spotify-button-row {
+    margin-top: 15px;
+    margin-bottom: 6px;
+  }
+
+  & :is(.vc-spotify-time-right, .vc-spotify-time-left) {
+    margin-top: 1px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+  }
+
+  & :is(.vc-spotify-comma, .vc-spotify-ellipoverflow, .vc-spotify-artist, .vc-spotify-album) {
+    margin-top: -2px;
+    font-weight: 600;
+  }
+
+  & #vc-spotify-album-image {
+    margin-top: -4px;
+    border-radius: 8px;
+  }
+
+  & #vc-spotify-titles {
+    margin-left: 0;
+    padding-left: 0;
+    flex: 1 auto;
+  }
+
+  &:has(#vc-spotify-album-expanded-wrapper) {
+    height: 200px;
+
+    &:hover {
+        height: 276px;
+    }
+  }
+}
+
+#vc-spotify-song-title {
+  font-weight: 800;
+}
+
+#vc-spotify-info-wrapper {
+  flex-direction: row-reverse;
+}

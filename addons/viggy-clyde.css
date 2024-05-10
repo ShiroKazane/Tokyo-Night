@@ -1,0 +1,42 @@
+.avatar__991e2[src="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c.gif?size=80"] {
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+    width: 90px !important;
+    height: 90px !important;
+}
+.avatar__991e2[src="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c.webp?size=32"] {
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+}
+.avatar__991e2[src="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c.webp?size=80"] {
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+}
+.avatar__991e2[src="https://cdn.discordapp.com/avatars/1081004946872352958/a_6170487d32fdfe9f988720ad80e6ab8c.gif?size=32"] {
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+}
+[aria-label="clyde"] .userTagUsernameNoNickname__0513b {
+    visibility: hidden
+}
+[aria-label="clyde"] .userTagUsernameNoNickname__0513b::before {
+    content: "Viggy";
+    visibility: visible;
+    width: 10px;
+}
+[aria-label="clyde"] .headerBotTag_b741ff {
+    display: none;
+}
+[aria-label="clyde"] .popoutBannerPremium__84487 {
+    visibility: visible;
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+}
+[aria-label="clyde"] .textBadge_f05120 {
+    visibility: visible;
+    content: url(https://media.discordapp.net/stickers/1217112512374505613.png);
+}
+[aria-label="clyde"] .textBadge_f05120 {
+    min-width: 30px !important;
+    min-height: 30px !important;
+    height: 30px !important;
+    padding: 0px;
+}
+[aria-label="clyde"] .base__5ed84 {
+    background-color: transparent !important;
+}

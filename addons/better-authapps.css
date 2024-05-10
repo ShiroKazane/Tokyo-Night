@@ -1,0 +1,82 @@
+#authorized-apps-tab {
+  margin: 0;
+
+  & [class^="deleteApp_"] {
+    opacity: 1;
+    transition: background-color .17s ease, color .17s ease;
+  }
+
+  & [class^="deleteApp_"]:hover {
+    background-color: var(--button-danger-background);
+  }
+
+  & [class^="children_"] {
+    counter-reset: section -1;
+    position: relative;
+  }
+
+  & [class^="children_"] > [class^="authedApp__"] {
+    counter-increment: section;
+  }
+
+  & [class^="children_"]::after {
+    counter-increment: section;
+    content: "Authorized Apps: "counter(section);
+    order: -1;
+    position: absolute;
+    color: var(--header-primary);
+    top: -44px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  & [class^="children_"] [class^="flexChild__"] > h3 {
+    display: flex;
+  }
+
+  & [class^="sectionTitle__"] {
+    opacity: 0;
+  }
+
+  & [class^="appAvatar__"] {
+    width: 46px;
+    height: 46px;
+  }
+
+  & [class^="headerInfo__"] > h4 {
+    margin-left: 14px;
+    font-size: 20px;
+  }
+
+  & [class^="authedApp__"]:not(:nth-child(2)) {
+    margin-top: 8px;
+  }
+
+  & [class^="permission__"] {
+    padding: 6px;
+    height: fit-content;
+    transition: .05s;
+  }
+
+  & [class^="permission__"]:hover {
+    border-color: var(--primary-300);
+  }
+
+  & [class^="authedApp__"] {
+    background-color: var(--background-secondary-alt);
+    transition: box-shadow .2s ease-out, transform .2s ease-out, background .2s ease-out, opacity .2s ease-in, -webkit-box-shadow .2s ease-out, -webkit-transform .2s ease-out, max-height .2s ease;
+    box-sizing: content-box;
+    max-height: 48px;
+    overflow: hidden;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  & [class^="authedApp__"]:hover {
+    background-color: var(--background-tertiary);
+    transform: translateY(-1px);
+    box-shadow: var(--elevation-high);
+    max-height: 100vh;
+  }
+}
