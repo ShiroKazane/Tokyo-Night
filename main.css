@@ -948,6 +948,32 @@ textarea[aria-label^="Note"] {
     height: auto !important;
 }
 
+/* Fix bad styling */
+[class^="button"]:has([class*="text-sm-medium"]) div {
+  color: #F3F6FB;
+}
+
+[aria-label^="Activities"] .container__3c4b3 {
+  background: var(--background-primary);
+}
+
+[class^="container"]:has([class*="bannerVisible"]) .name_e8e549 {
+  color: #F3F6FB;
+  transition: color .2 ease-out;
+}
+
+[id^="settings-clips-tab"]:has([class*="warning"]) .text__2d265 {
+  color: #F3F6FB !important;
+}
+
+[id^="keybinds-tab"]:has([class*="warning"]) .text__5191a {
+  color: #F3F6FB !important;
+}
+
+[class^="membershipDialogContent"]:has([class*="membershipDialogHouseName"]) [class*="membershipDialogHouseName"] {
+  color: var(--background-tertiary) !important;
+}
+
 /* Fix setting heavy animation */
 
 #app-mount [class*="baseLayer"] {

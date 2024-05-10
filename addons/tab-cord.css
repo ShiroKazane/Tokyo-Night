@@ -53,7 +53,7 @@ div[class*="menu_"][role*="menu"] {
     margin-right: 8px;
 }
 /* dialog popout (eg: leave server) & checkboxes */
-[class*="checkbox_"], [class*="popout__"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
+[class*="popout__"], [class*="item_"]:not(:is(.item__48dda)) {border-radius: 8px;}
 [class*="button_"]:not(:is(.button__581d0)), [class*="menu_"] {border-radius: 16px;}
 /* Member List */
 [class*="member"]:not(:is(.members__36ac2)) {border-radius: 16px;}
